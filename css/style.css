@@ -23,6 +23,7 @@ body{
 }
 
 #header__text{
+  font-family: 'Poppins';
   font-size: 3rem;
 }
 main{
