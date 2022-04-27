@@ -1,28 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Buscar Cep</title>
-    <link rel="stylesheet" href="./css/style.css" type="text/css" media="all" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cep-promise/4.1.2/cep-promise-browser.min.js"></script>
+    <title>Find Cep</title>
   </head>
-  <body>
-    <header class="header">
-      <h1>Buscar Cep</h1>
-      <img src="./img/lupa.png" alt="lupa" />
-    </header>
-    <main class="main">
-      <div class="searchArea">
-        <input type="number" class="searchArea__input" id="searchArea__input" />
-        <button class="searchArea__button" id="searchArea__button"type="submit"> buscar</button>
-      </div>
-      <div class="resultArea">
-        <div class="resultArea__container" id="resultArea__container">
-          </div>
-      </div>
-    </main>
-    <footer class="footer">
-      Made By Allan Pereira
-    </footer>
-    <script src="./js/main.js" type="text/javascript" charset="utf-8"></script>
-  </body>
+  <header id="header">
+    <h3 id="header__text">Find Cep</h3>
+  </header>
+  <main>
+    <section id="input__area">
+      <input type="number" id="input__item" placeholder="CEP">
+      <button id="input__button" type="submit">Find</button>
+    </section>
+    <section id="result__area"></section>
+  </main>
+  <footer id="footer">made by allan</footer>
+  <body></body>
+  <script src="./js/main.js"></script>
 </html>
