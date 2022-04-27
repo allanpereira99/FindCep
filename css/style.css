@@ -65,6 +65,7 @@ main{
 #result__area{
   min-width: 40%;
   max-width: 60%;
+  min-height: 50%;
   border: 1px solid;
   margin-top: 40px;
 }
@@ -100,5 +101,4 @@ main{
     flex-wrap: wrap;
     font-size: 20px;
   }
-  
 }
